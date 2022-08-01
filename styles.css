@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: #111827;
+    display:table;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),;
+    background-position:center top;
+    height:350px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    margin-top: 50px;
+
+    text-align: center;
+    color: #EEEEEE;
+}
+
+
+.homescore {
+
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+    margin: 30px 10px;
+
+}
+
+.awayscore {
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+
+    font-family: 'Cursed Timer ULiL', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+    color: #F94F6D;
+    margin: 30px 10px;
+}
+
+.onePoint{
+    font-size: x-large;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    padding: 10px;
+}
+
+.twoPoints{
+    font-size: x-large;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    padding: 10px;
+}
+
+.threePoints{
+    font-size: x-large;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    padding: 10px;
+}
+
+.resetButton {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    margin: 300px 0px;
+    
+}
